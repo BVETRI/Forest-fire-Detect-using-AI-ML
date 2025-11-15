@@ -1,0 +1,21 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+
+{% if st=="1" %}
+Fire Detected...
+<iframe src="http://iotcloud.co.in/testsms/sms.php?sms=msg&name=User&mess={{message}}&mobile={{mobile}}" width="10" height="10" ></iframe>	
+	{% endif %}		
+<script>
+						setTimeout(function () {
+						   //Redirect with JavaScript
+						  window.location.href="/page";
+						}, 10000);
+						</script>
+
+</body>
+</html>
